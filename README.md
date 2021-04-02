@@ -77,3 +77,7 @@ TF_PYTHON_VERSION=3.5 ./build_tensorflow.sh <path-of-config> [noclean]
 # The optional [noclean] argument omits 'bazel clean' before building for debugging purposes.
 # If no output errors, the pip package will be in the directory: /tmp/tensorflow_pkg/
 ```
+
+## References
++ Prebuilt binary with Tensorflow Lite enabled (native build). For RaspberryPi / Jetson Nano: https://github.com/PINTO0309/Tensorflow-bin
++ TensorFlow for Raspberry Pi: https://github.com/samjabrahams/tensorflow-on-raspberry-pi
