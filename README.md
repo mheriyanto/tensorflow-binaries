@@ -1,22 +1,21 @@
-# Tensorflow-on-arm
+# TensorFlow on ARM
 
-Inspired by [tensorflow-on-raspberry-pi](https://github.com/samjabrahams/tensorflow-on-raspberry-pi).
 Tool to compile tensorflow for ARM.
 
 ## Dependencies
 ```shell
-apt-get install openjdk-8-jdk automake autoconf
-apt-get install curl zip unzip libtool swig libpng-dev zlib1g-dev pkg-config git g++ wget xz-utils
+apt install openjdk-8-jdk automake autoconf
+apt install curl zip unzip libtool swig libpng-dev zlib1g-dev pkg-config git g++ wget xz-utils
 
 # For python2.7
-apt-get install python-numpy python-dev python-pip python-mock
+apt install python-numpy python-dev python-pip python-mock
 
 # If using a virtual environment, omit the --user argument
 pip install -U --user keras_applications==1.0.8 --no-deps
 pip install -U --user keras_preprocessing==1.1.0 --no-deps
 
 # For python3
-apt-get install python3-numpy python3-dev python3-pip python3-mock
+apt install python3-numpy python3-dev python3-pip python3-mock
 
 # If using a virtual environment, omit the --user argument
 pip3 install -U --user keras_applications==1.0.8 --no-deps
@@ -43,10 +42,10 @@ echo "deb [arch=armhf] http://httpredir.debian.org/debian/ buster main contrib n
 If you want compile Python support:
 ```shell
 # For python2.7
-apt-get install libpython-all-dev:armhf
+apt install libpython-all-dev:armhf
 
 # For python3
-apt-get install libpython3-all-dev:armhf
+apt install libpython3-all-dev:armhf
 ```
 ### Using Docker
 
