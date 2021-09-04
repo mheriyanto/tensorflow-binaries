@@ -80,3 +80,7 @@ TF_PYTHON_VERSION=3.5 ./build_tensorflow.sh <path-of-config> [noclean]
 ## References
 + Prebuilt binary with Tensorflow Lite enabled (native build). For RaspberryPi / Jetson Nano: https://github.com/PINTO0309/Tensorflow-bin
 + TensorFlow for Raspberry Pi: https://github.com/samjabrahams/tensorflow-on-raspberry-pi
++ Q-engineering: https://github.com/Qengineering
+  + TensorFlow-Raspberry-Pi-32-bit: https://github.com/Qengineering/TensorFlow-Raspberry-Pi
+  + TensorFlow-Raspberry-Pi_64-bit: https://github.com/Qengineering/TensorFlow-Raspberry-Pi_64-bit
+  + TensorFlow-JetsonNano: https://github.com/Qengineering/TensorFlow-JetsonNano
